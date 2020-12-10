@@ -2,15 +2,19 @@
 
 Pug/scss/webpack
 
-Startkit
+<h1>Startkit</h1>
 
-Для старта работы над проектом..
+<h3>Для старта работы над проектом..</h3>
 
-Установка   
-Npm i. 
-Запуск   
-Npm run start. 
-Билд   
-Npm run build. 
+<h3>Установка   </h3>
+npm i 
+
+<h3>Запуск   </h3>
+
+npm run start 
+
+<h3>Билд   </h3>
+
+npm run build 
 
 Позже добавлю больше информации..  
