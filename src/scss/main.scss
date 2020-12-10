@@ -6,97 +6,11 @@
 
 @import './_reset';
 
-/*------------------------------ Import libs ----------------------------------------*/
-@import '~material-design-icons/iconfont/material-icons.css';
-
-$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
-
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
 
 /*------------------------------ Common styles ----------------------------------------*/
 
 @import './_mixins';
 
-/*------- Add fonts ------------*/
-
-@include font-face(
-  'Quicksand', 
-  '../fonts/Quicksand-Regular/Quicksand-Regular',
-  400
-);
-
-@include font-face(
-  'Quicksand', 
-  '../fonts/Quicksand-Bold/Quicksand-Bold',
-  700
-);
-
-@include font-face(
-  'Montserrat', 
-  '../fonts/Montserrat-Regular/Montserrat-Regular',
-  400
-);
-
-@include font-face(
-  'Montserrat', 
-  '../fonts/Montserrat-Bold/Montserrat-Bold',
-  700
-);
-
-@include font-face(
-  'OpenSans', 
-  '../fonts/OpenSans-Regular/OpenSans-Regular',
-  400
-);
-
-@include font-face(
-  'OpenSans', 
-  '../fonts/OpenSans-Bold/OpenSans-Bold',
-  700
-);
-
-html {
-  font-size: $HTMLsize;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', 'OpenSans', sans-serif;
-  font-weight: 400;
-  font-size: rem(14px);
-  line-height: 24px;
-  color: $dark75;
-}
-
-h1 {
-  font-family: 'Montserrat', 'OpenSans', sans-serif;
-  font-weight: 700;
-  font-size: rem(24px);
-  line-height: 30px;
-  color: $dark100;
-}
-
-h2 {
-  font-family: 'Montserrat', 'OpenSans', sans-serif;
-  font-weight: 700;
-  font-size: rem(19px);
-  line-height: 24px;
-  color: $dark100;
-}
-
-h3 {
-  font-family: 'Montserrat', 'OpenSans', sans-serif;
-  font-weight: 700;
-  font-size: rem(12px);
-  line-height: 15px;
-  text-transform: uppercase;
-  color: $dark100;
-}
 
 /*------------------------------ Import styles ----------------------------------------*/
 
