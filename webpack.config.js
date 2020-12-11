@@ -9,7 +9,9 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
 	entry: {
-		'cards': './src/pages/cards/cards.js',
+	'cards': './src/pages/cards/cards.js',
+	'colorType': './src/pages/colorType/colorType.js',
+	'toxinNav': './src/pages/toxinNav/toxinNav.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -68,11 +70,23 @@ module.exports = {
 			template: './src/pages/cards/cards.pug',
 			filename: 'cards.html'
 		}),
+		new HtmlWebpackPlugin({
+			inject: false,
+			hash: true,
+			template: './src/pages/colorType/colorType.pug',
+			filename: 'colorType.html'
+		}),
+		new HtmlWebpackPlugin({
+			inject: false,
+			hash: true,
+			template: './src/pages/toxinNav/toxinNav.pug',
+			filename: 'toxinNav.html'
+		})
 	],
 	devtool: 'inline-source-map',
 	devServer: {
 		stats: 'errors-only',
-		index: 'cards.html',
+		index: 'toxinNav.html',
 		open: true,
 	}
 };

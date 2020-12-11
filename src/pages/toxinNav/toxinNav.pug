@@ -1,0 +1,19 @@
+extends ../../layouts/ui-kit
+
+block title
+  title Toxin-navigation
+
+
+block head
+     link(rel="stylesheet" href="toxinNav.css")
+
+block content
+   .toxin-nav
+    a(href="../cards.html").toxin-nav__link Cards
+   .toxin-nav
+    a(href="../colorType.html").toxin-nav__link Color-type
+   
+   
+
+block script
+    script(src="./toxinNav.js")
